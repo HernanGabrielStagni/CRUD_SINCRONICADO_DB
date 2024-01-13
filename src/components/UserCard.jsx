@@ -23,7 +23,7 @@ const UserCard = ({user,deleteUserById,setUpdateInfo,setFormClose}) => {
      
       
           <li className='user__item'>
-            <span className='user__label' >📧  Email </span>
+            <span className='user__label' >📧  E-mail </span>
             <span className='user__value'>{user.email}</span>
           </li>
           <li className='user__item'>
